@@ -9,7 +9,7 @@ This blog is an annex to the Zebra Workstation Connect User Guide for Developers
 
 It's aiming at supporting developers with an annotated sample project that sits at https://github.com/xxxx/ABDC
 
-A more general introduction to Zebra Workstation Connect (ZWC or WSC) is found in the Zebra DevCon 2023 archive. For slides and videos, visit
+A more thorough introduction to Zebra Workstation Connect (ZWC or WSC) is found in the Zebra DevCon 2023 archive. For slides and videos, visit
 
 - https://www.zebra.com/content/dam/zebra_dam/en/presentation/customer-facing/zebra-devcon2023-presentation-customer-facing-workstation-connect-nicola-de-zolt-en-us.pdf
 - https://www.zebra.com/content/dam/zebra_dam/en/video/web-production/zebra-devcon2023-video-website-emc-power-pos-and-workstations-with-workstation-connect-nicola-de-zolt-en-us.mp4
