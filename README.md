@@ -7,7 +7,7 @@ Title: "Streamlining Workstation Connect Configuration: A Step-by-Step Guide for
 ## Foreword
 This blog is an annex to the Zebra Workstation Connect User Guide for Developers (wsc-dev-ug.pdf) and is published at the following address https://developer.zebra.com/blog/streamlining-workstation-connect-configuration-step-step-guide-developers
 
-It's aiming at supporting developers with an annotated sample project that sits at https://github.com/xxxx/ABDC
+It's aiming at supporting developers with an annotated sample project that sits at https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp (Java) and https://github.com/ZebraDevs/WSC-MAUI-SampleApp (.NET MAUI, C#)
 
 A more thorough introduction to Zebra Workstation Connect (ZWC or WSC) is found in the Zebra DevCon 2023 archive. For slides and videos, visit
 
