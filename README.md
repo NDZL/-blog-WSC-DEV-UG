@@ -17,9 +17,19 @@ A more thorough introduction to Zebra Workstation Connect (acronyms: ZWC or WSC)
 - **SLIDES DECK** https://www.zebra.com/content/dam/zebra_dam/en/presentation/customer-facing/zebra-devcon2023-presentation-customer-facing-workstation-connect-nicola-de-zolt-en-us.pdf
 - **RECORDING** https://www.zebra.com/content/dam/zebra_dam/en/video/web-production/zebra-devcon2023-video-website-emc-power-pos-and-workstations-with-workstation-connect-nicola-de-zolt-en-us.mp4
 
-## Sample Project structure
+## WSC pre-requisites
 
-Here is how to sample project unfolds.
+At the time of writing, WSC 2.0 is publicly available. Such version is only supported on Android 11, on Zebra devices that have installed a minimum LifeGuard Update version (see next table)
+
+![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/b133ebfe-b6fe-42b2-8503-6caa66e54d1e)
+
+Starred (*) models additionally require the Mobility DNA Enterprise License.
+
+Get the WSC launcher from https://www.zebra.com/us/en/support-downloads/software/productivity-apps/workstation-connect.html 
+
+
+
+
 x
 s
 w
