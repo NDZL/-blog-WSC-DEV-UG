@@ -1,4 +1,4 @@
-# -blog-WSC-DEV-UG
+![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/de35f99b-9336-4df0-8ffa-fee642e2c61b)# -blog-WSC-DEV-UG
 WSC User Guide for Developers blog: notes on the attached sample code.
 
 
@@ -42,7 +42,14 @@ Developers have two options to transfer the configuration to WSC: via a Delegati
 
     ### Using Delegation Scopes to configure WSC
 
-The delegation scope to use is ```delegation-zebra-workstationconnect-api-access-configuration-service```![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/3ca6c852-858b-49ab-a46b-6b142a1cdb9b)
+    - The delegation scope to use is ```delegation-zebra-workstationconnect-api-access-configuration-service```
+    - Your Administrator needs to grant your application the permission to call the service associated with that delegation scope. In order to do so, the following MX feature must be used, e.g. via Stagenow
+
+    ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/694f0fa2-a757-4bcd-ab8b-d3bb631add34)
+
+
+  
+
 
 
 
