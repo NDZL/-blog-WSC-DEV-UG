@@ -38,6 +38,12 @@ This is an example of a JSON Configuration file
 
 In the example above, the feature with value=1 gets enabled, those with value=2 get disabled.
 
+Developers have two options to transfer the configuration to WSC: via a Delegation Scope and via Secure Storage Manager (SSM).
+
+    ### Using Delegation Scopes to configure WSC
+
+The delegation scope to use is ```delegation-zebra-workstationconnect-api-access-configuration-service```![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/3ca6c852-858b-49ab-a46b-6b142a1cdb9b)
+
 
 
 
