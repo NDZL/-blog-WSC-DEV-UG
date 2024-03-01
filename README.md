@@ -55,9 +55,9 @@ Developers have two options to transfer the configuration to WSC: via a Delegati
 On the coding side, 
 - add the following AIDL to your project, keeping name and package name unchanged
 
-![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/1210232c-48f6-44c7-8d9b-33dbda7e50a1)
+    ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/1210232c-48f6-44c7-8d9b-33dbda7e50a1)
 
-![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/6d5bbec9-6c4a-4f2e-8bc4-7b6be025e5af)
+    ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/6d5bbec9-6c4a-4f2e-8bc4-7b6be025e5af)
 
 
 
