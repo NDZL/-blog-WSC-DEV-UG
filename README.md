@@ -40,7 +40,7 @@ In the example above, the feature with value=1 gets enabled, those with value=2 
 
 Developers have two options to transfer the configuration to WSC: via a Delegation Scope and via Secure Storage Manager (SSM).
 
-    ### Using Delegation Scopes to configure WSC
+   ### Using Delegation Scopes to configure WSC
 
     - The delegation scope to use is ```delegation-zebra-workstationconnect-api-access-configuration-service```
     - Your Administrator needs to grant your application the permission to call the service associated with that delegation scope. In order to do so, the following MX feature must be used, e.g. via Stagenow
