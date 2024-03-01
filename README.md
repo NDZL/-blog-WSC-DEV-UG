@@ -51,6 +51,17 @@ Developers have two options to transfer the configuration to WSC: via a Delegati
 - The Caller Package Name is your ```applicatioID``` as it appears the in module's gradle.build file
 - The Caller Signature is your app public signature. You can extract it e.g. with https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/
 
+
+On the coding side, 
+- add the following AIDL to your project, keeping name and package name unchanged
+
+![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/1210232c-48f6-44c7-8d9b-33dbda7e50a1)
+
+![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/6d5bbec9-6c4a-4f2e-8bc4-7b6be025e5af)
+
+
+
+
   
 
 
