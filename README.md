@@ -45,7 +45,14 @@ Developers have two options to transfer the configuration to WSC: via a Delegati
 - The delegation scope to use is ```delegation-zebra-workstationconnect-api-access-configuration-service```
 - Your Administrator needs to grant your application the permission to call the service associated with that delegation scope. In order to do so, the following MX feature must be used, e.g. via Stagenow
 
-![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/b8ec45c2-c4a8-427f-b837-05d83178c3c8)
+    ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/b8ec45c2-c4a8-427f-b837-05d83178c3c8)
+
+- The Service Identifier is the delegation scope name as shared above
+- The Caller Package Name is your ```applicatioID``` as it appears the in module's gradle.build file
+- The Caller Signature is your app public signature. You can extract it e.g. with https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/
+
+  
+
 
 
 
