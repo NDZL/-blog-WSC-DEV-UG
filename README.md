@@ -28,10 +28,17 @@ Starred (*) models additionally require the Mobility DNA Enterprise License.
 Get the WSC launcher from https://www.zebra.com/us/en/support-downloads/software/productivity-apps/workstation-connect.html 
 
 
+## Programmatically configuring WSC
+
+WSC gets configured by means of a JSON configuration file, which holds all the restrictions to be applied.
+
+This is an example of a JSON Configuration file
+
+![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/c12db127-00d6-480a-a943-5e962868d4d3)
+
+In the example above, the feature with value=1 gets enabled, those with value=2 get disabled.
 
 
-x
-s
-w
+
 
 
