@@ -59,7 +59,16 @@ On the coding side,
 
     ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/6d5bbec9-6c4a-4f2e-8bc4-7b6be025e5af)
 
+- then implement a ```ServiceConnection``` interface and in the ```onServiceConnected``` get an instance of the service binder ```iServiceBinder = com.zebra.valueadd.IZVAService.Stub.asInterface(service);```
+- in the ```onStart``` method you can finally bind the WSC service by calling
 
+- ```
+      private void bindtoZVAService() {
+        Intent intent = new Intent("com.zebra.workstationconnect.release");
+        intent.setClassName("com.zebra.workstationconnect.release", "com.zebra.workstationconnect.DeviceManagementService");
+        bindService(intent, this, BIND_AUTO_CREATE);
+    }
+  ```
 
 
   
