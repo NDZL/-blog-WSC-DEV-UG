@@ -73,7 +73,15 @@ On the coding side,
     `iServiceBinder.processZVARequest( JSON Configuration string ) `
 
   
+   ### Using Secure Storage Manager (SSM) to configure WSC
 
+This method is described in the WSC Administrator's Guide, on page 46 https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/software/workstation-connect/wsc-ag-en.pdf
+
+Simply
+- Create the desired configuration as a JSON string
+- Persist it as a file in folder that can be accessed by any apps
+- Feed the file to SSM using this target URI
+    `com.zebra.workstationconnect.release/enterprise/workstation_connect_config.txt`
 
 
 
