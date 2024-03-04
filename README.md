@@ -56,7 +56,7 @@ Developers have two options to transfer the configuration to WSC: via a Delegati
     ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/b8ec45c2-c4a8-427f-b837-05d83178c3c8)
 
 - The Service Identifier is the delegation scope name as shared above
-- The Caller Package Name is your ```applicatioID``` as it appears the in module's gradle.build file
+- The Caller Package Name is your ```applicationID``` as it appears the in module's gradle.build file
 - The Caller Signature is your app's public signature. You can extract it e.g. with [https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/](https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/)
 
 
@@ -100,6 +100,7 @@ To learn how SSM works with files, refer to [https://techdocs.zebra.com/ssm/1-1/
 
 To dynamically manage the apps' shortcuts that appear on the secondary launcher, do the following
 - manually create a set of shortcuts and export them by right-clicking the mouse on the launcher free space. Shortcuts get exported in the `/enterprise/usr/Export_Shortcuts_DATE-TIME.txt` file. The shortcuts are persisted as JSON values.
+
     ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/614b7f7a-abe8-4cab-b27d-d9c96ff9e385)
 
 - in the Config.json file use the `shortcutImportFile` API, which is part of the `configDesktopShortcuts` key
