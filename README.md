@@ -43,6 +43,13 @@ This is an example of a JSON Configuration file
 
 In the example above, the feature with value=1 gets enabled, those with value=2 get disabled.
 
+Here you can compare the original launcher (left) and how the launcher appears after the configuration is applied (right)
+
+![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/2dd379b0-ec3c-4665-aa25-766517bb75eb)
+
+The *All apps* button is disable, the apps running on the mobile display are not listed
+
+
 Developers have two options to transfer the configuration to WSC: via a Delegation Scope and via Secure Storage Manager (SSM).
 
 <br> 
