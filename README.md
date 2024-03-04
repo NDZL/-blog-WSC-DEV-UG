@@ -29,7 +29,7 @@ At the time of writing, WSC 2.0 is publicly available. Such version is only supp
 
 Starred (*) models additionally require the Mobility DNA Enterprise License.
 
-Get the WSC launcher from https://www.zebra.com/us/en/support-downloads/software/productivity-apps/workstation-connect.html 
+Get the WSC launcher from [https://www.zebra.com/us/en/support-downloads/software/productivity-apps/workstation-connect.html ](https://www.zebra.com/us/en/support-downloads/software/productivity-apps/workstation-connect.html)
 
 <br> 
 
@@ -56,7 +56,7 @@ Developers have two options to transfer the configuration to WSC: via a Delegati
 
 - The Service Identifier is the delegation scope name as shared above
 - The Caller Package Name is your ```applicatioID``` as it appears the in module's gradle.build file
-- The Caller Signature is your app public signature. You can extract it e.g. with https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/
+- The Caller Signature is your app public signature. You can extract it e.g. with [https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/](https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/)
 
 
 On the coding side, 
