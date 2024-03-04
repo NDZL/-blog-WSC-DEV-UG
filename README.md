@@ -126,5 +126,3 @@ Enterprise Browser APIs about WSC
 
 WSC v3 will be made available in March 2024
 Support for Android 13 added!
-![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/0284a9ec-524b-47c3-b6a8-88c4d765cd94)
-
