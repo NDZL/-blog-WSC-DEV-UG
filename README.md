@@ -70,7 +70,7 @@ On the coding side,
     }
   ```
 - eventually the configuration gets trasferred to the equipment by calling one single API [(See here)](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/java/com/zebra/wsc_exerciser/HDLauncherActivity.java#L113)
-    ```iServiceBinder.processZVARequest(  <em>JSON Configuration string</em> ) ```
+    `iServiceBinder.processZVARequest(  <em>JSON Configuration string</em> ) `
 
   
 
