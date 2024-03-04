@@ -18,6 +18,8 @@ A more thorough introduction to Zebra Workstation Connect (acronyms: ZWC or WSC)
 
 - **SLIDES DECK** https://www.zebra.com/content/dam/zebra_dam/en/presentation/customer-facing/zebra-devcon2023-presentation-customer-facing-workstation-connect-nicola-de-zolt-en-us.pdf
 - **RECORDING** https://www.zebra.com/content/dam/zebra_dam/en/video/web-production/zebra-devcon2023-video-website-emc-power-pos-and-workstations-with-workstation-connect-nicola-de-zolt-en-us.mp4
+- 
+<br>
 
 ## Workstation Connect (WSC) pre-requisites
 
@@ -29,6 +31,7 @@ Starred (*) models additionally require the Mobility DNA Enterprise License.
 
 Get the WSC launcher from https://www.zebra.com/us/en/support-downloads/software/productivity-apps/workstation-connect.html 
 
+<br> 
 
 ## Programmatically configuring WSC
 
