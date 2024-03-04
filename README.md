@@ -7,7 +7,7 @@ WSC User Guide for Developers blog: notes on the attached sample code.
 Title: "Streamlining Workstation Connect Configuration: A Step-by-Step Guide for Developers"
 
 ## Foreword
-This blog is an annex to the Zebra Workstation Connect User Guide for Developers (wsc-dev-ug.pdf) and is published at the following address https://developer.zebra.com/blog/streamlining-workstation-connect-configuration-step-step-guide-developers
+This blog is an annex to the Zebra Workstation Connect User Guide for Developers (wsc-dev-ug.pdf) and is published at the following address [https://developer.zebra.com/blog/streamlining-workstation-connect-configuration-step-step-guide-developers](https://developer.zebra.com/blog/streamlining-workstation-connect-configuration-step-step-guide-developers)
  
 It's aiming at supporting developers with a few annotated sample projects
 - [https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp) (Java)
