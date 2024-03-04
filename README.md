@@ -83,7 +83,7 @@ On the coding side,
 
 ### Using Secure Storage Manager (SSM) to configure WSC
 
-This method is described in the WSC Administrator's Guide, on page 46 https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/software/workstation-connect/wsc-ag-en.pdf
+This method is described in the WSC Administrator's Guide, on page 46 [https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/software/workstation-connect/wsc-ag-en.pdf](https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/software/workstation-connect/wsc-ag-en.pdf)
 
 [Refer to this code sction](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/java/com/zebra/wsc_exerciser/HDLauncherActivity.java#L188)
 - Create the desired configuration as a JSON string
