@@ -72,12 +72,12 @@ On the coding side,
 - eventually the configuration gets trasferred to the equipment by calling one single API [(See here)](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/java/com/zebra/wsc_exerciser/HDLauncherActivity.java#L113)
     `iServiceBinder.processZVARequest( JSON Configuration string ) `
 
-  
-   ### Using Secure Storage Manager (SSM) to configure WSC
 
-This method is described in the WSC Administrator's Guide, on page 46 https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/software/workstation-connect/wsc-ag-en.pdf
+    ### Using Secure Storage Manager (SSM) to configure WSC
 
-Simply
+    This method is described in the WSC Administrator's Guide, on page 46 https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/software/workstation-connect/wsc-ag-en.pdf
+
+    Simply
 - Create the desired configuration as a JSON string
 - Persist it as a file in folder that can be accessed by any apps
 - Feed the file to SSM using this target URI
