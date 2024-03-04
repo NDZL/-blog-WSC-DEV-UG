@@ -112,4 +112,7 @@ To dynamically manage the apps' shortcuts that appear on the secondary launcher,
 - as a value, pass the exported shortcuts
     - be mindful to escape with backslash `\` the imported JSON shortcuts
     - you can drop the `checksum` key if you edit the shortcuts, since this field is optional
+
+      ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/06c56193-d071-4dda-9c6f-12adc55416ad)
+
  
