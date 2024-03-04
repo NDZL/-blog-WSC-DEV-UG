@@ -53,14 +53,14 @@ Developers have two options to transfer the configuration to WSC: via a Delegati
 
 
 On the coding side, 
-- add the following AIDL to your project, keeping name and package name unchanged
+- add the following AIDL to your project, keeping name and package name unchanged [(Github reference)](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/aidl/com/zebra/valueadd/IZVAService.aidl#L8)
 
     ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/1210232c-48f6-44c7-8d9b-33dbda7e50a1)
 
     ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/6d5bbec9-6c4a-4f2e-8bc4-7b6be025e5af)
 
 - then implement a ```ServiceConnection``` interface and in the ```onServiceConnected``` get an instance of the service binder ```iServiceBinder = com.zebra.valueadd.IZVAService.Stub.asInterface(service);```
-- in the ```onStart``` method you can finally bind the WSC service by calling [Github reference](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/java/com/zebra/wsc_exerciser/HDLauncherActivity.java#L156)
+- in the ```onStart``` method you can finally bind the WSC service by calling [(Github reference)](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/java/com/zebra/wsc_exerciser/HDLauncherActivity.java#L156)
 
     ```
       private void bindtoZVAService() {
