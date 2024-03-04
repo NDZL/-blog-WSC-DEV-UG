@@ -3,7 +3,7 @@
 ## Foreword
 This blog is an annex to the Zebra Workstation Connect User Guide for Developers (wsc-dev-ug.pdf) and is published at the following address [https://developer.zebra.com/blog/streamlining-workstation-connect-configuration-step-step-guide-developers](https://developer.zebra.com/blog/streamlining-workstation-connect-configuration-step-step-guide-developers)
  
-It's aiming at supporting developers with a few annotated sample projects
+It aims to support developers with a few annotated sample projects
 - [https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp) (Java)
 - [https://github.com/ZebraDevs/WSC-MAUI-SampleApp](https://github.com/ZebraDevs/WSC-MAUI-SampleApp) (.NET MAUI, C#)
 - [https://github.com/ZebraDevs/WSC-FLUTTER-SampleApp](https://github.com/ZebraDevs/WSC-FLUTTER-SampleApp) (Flutter, Dart/Java)
@@ -29,39 +29,39 @@ Get the WSC launcher from [https://www.zebra.com/us/en/support-downloads/softwar
 
 ## Programmatically configuring WSC
 
-WSC gets configured by means of a JSON configuration file, which holds all the restrictions to be applied.
+WSC gets configured using a JSON configuration file, which holds all the restrictions to be applied.
 
 This is an example of a JSON Configuration file
 
 ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/c12db127-00d6-480a-a943-5e962868d4d3)
 
-In the example above, the feature with value=1 gets enabled, those with value=2 get disabled.
+In the example above, the feature with value=1 gets enabled, and those with value=2 get disabled.
 
 Here you can compare the original launcher (left) and how the launcher appears after the configuration is applied (right)
 
 ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/2dd379b0-ec3c-4665-aa25-766517bb75eb)
 
-The *All apps* button is disable, the apps running on the mobile display are not listed
+The *All apps* button is disabled, and the apps running on the mobile display are not listed
 
 
-Developers have two options to transfer the configuration to WSC: via a Delegation Scope and via Secure Storage Manager (SSM).
+Developers have two options to transfer the configuration to WSC: via a Delegation Scope and Secure Storage Manager (SSM).
 
 <br> 
 
    ### Using Delegation Scopes to configure WSC
 
-- The delegation scope to use is ```delegation-zebra-workstationconnect-api-access-configuration-service```
-- Your Administrator needs to grant your application the permission to call the service associated with that delegation scope. In order to do so, the following MX feature must be used, e.g. via Stagenow
+- The delegation scope to use is ```delegation-zebra-workstation connect-api-access-configuration-service```
+- Your Administrator needs to permit your application to call the service associated with that delegation scope. To do so, the following MX feature must be used, e.g. via Stagenow
 
     ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/b8ec45c2-c4a8-427f-b837-05d83178c3c8)
 
 - The Service Identifier is the delegation scope name as shared above
 - The Caller Package Name is your ```applicatioID``` as it appears the in module's gradle.build file
-- The Caller Signature is your app public signature. You can extract it e.g. with [https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/](https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/)
+- The Caller Signature is your app's public signature. You can extract it e.g. with [https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/](https://techdocs.zebra.com/emdk-for-android/latest/samples/sigtools/)
 
 
 On the coding side, 
-- add the following AIDL to your project, keeping name and package name unchanged [(Github reference)](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/aidl/com/zebra/valueadd/IZVAService.aidl#L8)
+- add the following AIDL to your project, keeping the name and package name unchanged [(GitHub reference)](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/aidl/com/zebra/valueadd/IZVAService.aidl#L8)
 
     ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/1210232c-48f6-44c7-8d9b-33dbda7e50a1)
 
@@ -77,7 +77,7 @@ On the coding side,
         bindService(intent, this, BIND_AUTO_CREATE);
     }
   ```
-- eventually the configuration gets trasferred to the equipment by calling one single API [(See here)](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/java/com/zebra/wsc_exerciser/HDLauncherActivity.java#L113)
+- eventually, the configuration gets transferred to the equipment by calling one single API [(See here)](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/java/com/zebra/wsc_exerciser/HDLauncherActivity.java#L113)
     `iServiceBinder.processZVARequest( JSON Configuration string ) `
 
 <br> 
@@ -88,7 +88,7 @@ This method is described in the WSC Administrator's Guide, on page 46 [https://w
 
 [Refer to this code sction](https://github.com/ZebraDevs/WSC-DEV-UG-SampleApp/blob/b307fcecfdc33f7beac68ff04cc5ee2a12bd1f97/app/src/main/java/com/zebra/wsc_exerciser/HDLauncherActivity.java#L188)
 - Create the desired configuration as a JSON string
-- Persist it as a file in folder that can be accessed by any apps
+- Persist it as a file in a folder that can be accessed by any apps
 - Feed the file to SSM using this target URI
     `com.zebra.workstationconnect.release/enterprise/workstation_connect_config.txt`
 
@@ -104,11 +104,11 @@ To dynamically manage the apps' shortcuts that appear on the secondary launcher,
 
 - in the Config.json file use the `shortcutImportFile` API, which is part of the `configDesktopShortcuts` key
 - as a value, pass the exported shortcuts
-    - be mindful to escape with backslash `\` the imported JSON shortcuts
+    - be mindful to escape with a backslash `\` the imported JSON shortcuts
 
     ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/7184682a-f59c-41f1-a46c-74af4bab3574)
 
-    - you can drop the `checksum` key if you edit the shortcuts, since this field is optional
+    - you can drop the `checksum` key if you edit the shortcuts since this field is optional
 
       ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/06c56193-d071-4dda-9c6f-12adc55416ad)
 
