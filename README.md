@@ -1,4 +1,4 @@
-![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/de35f99b-9336-4df0-8ffa-fee642e2c61b)# -blog-WSC-DEV-UG
+# -blog-WSC-DEV-UG
 WSC User Guide for Developers blog: notes on the attached sample code.
 
 
