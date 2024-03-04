@@ -112,4 +112,19 @@ To dynamically manage the apps' shortcuts that appear on the secondary launcher,
 
       ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/06c56193-d071-4dda-9c6f-12adc55416ad)
 
+<br> 
+
+ ## Techdocs Documentation and Roadmap
  
+Workstation Connect is also documented here [https://techdocs.zebra.com/zwc/2-0/about/](https://techdocs.zebra.com/zwc/2-0/about/)
+
+A Developers’ User Guide will soon be published
+
+Enterprise Browser APIs about WSC
+
+[https://techdocs.zebra.com/enterprise-browser/latest/guide/zwc/#apisforzwc ](https://techdocs.zebra.com/enterprise-browser/latest/guide/zwc/#apisforzwc )
+
+WSC v3 will be made available in March 2024
+Support for Android 13 added!
+![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/0284a9ec-524b-47c3-b6a8-88c4d765cd94)
+
