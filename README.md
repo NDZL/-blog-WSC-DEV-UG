@@ -91,13 +91,4 @@ This method is described in the WSC Administrator's Guide, on page 46 [https://w
 - Feed the file to SSM using this target URI
     `com.zebra.workstationconnect.release/enterprise/workstation_connect_config.txt`
 
-
-
-
-  
-
-
-
-
-
-
+To learn how SSM works with files, refer to [https://techdocs.zebra.com/ssm/1-1/guide/share-files/](https://techdocs.zebra.com/ssm/1-1/guide/share-files/)
