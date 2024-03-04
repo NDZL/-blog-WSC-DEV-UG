@@ -99,3 +99,17 @@ This method is described in the WSC Administrator's Guide, on page 46 [https://w
     `com.zebra.workstationconnect.release/enterprise/workstation_connect_config.txt`
 
 To learn how SSM works with files, refer to [https://techdocs.zebra.com/ssm/1-1/guide/share-files/](https://techdocs.zebra.com/ssm/1-1/guide/share-files/)
+
+<br> 
+
+## Working with Desktop Shortcuts
+
+To dynamically manage the apps' shortcuts that appear on the secondary launcher, do the following
+- manually create a set of shortcuts and export them by right-clicking the mouse on the launcher free space. Shortcuts get exported in the `/enterprise/usr/Export_Shortcuts_DATE-TIME.txt` file. The shortcuts are persisted as JSON values.
+    ![image](https://github.com/NDZL/-blog-WSC-DEV-UG/assets/11386676/614b7f7a-abe8-4cab-b27d-d9c96ff9e385)
+
+- in the Config.json file use the `shortcutImportFile` API, which is part of the `configDesktopShortcuts` key
+- as a value, pass the exported shortcuts
+    - be mindful to escape with backslash `\` the imported JSON shortcuts
+    - you can drop the `checksum` key if you edit the shortcuts, since this field is optional
+ 
